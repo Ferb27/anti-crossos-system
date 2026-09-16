@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.lock
+*.bak
+*.swp
+*.swo
+
+# Runtime and generated test state
+dry-run/
+tmp/
+temp/
+
+# Backups (contain system state snapshots)
+backups/
+
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# SQLite runtime auxiliaries
+*.db-wal
+*.db-shm
+
+# Antigravity local state
+.gemini/
+antigravity-state/
+conversation-data/
+
+# Raw conversation migration payloads and packages
+conversation-migration/packages/
+conversation-migration/payloads/
+conversation-migration/raw/

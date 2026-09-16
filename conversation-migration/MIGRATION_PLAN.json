@@ -1,0 +1,75 @@
+{
+  "plan_version": "2.0.0",
+  "generated_at": "2026-09-16T20:25:00+07:00",
+  "project_name": "dish_cleaner",
+  "crossos_project_id": "6baaeb54d46ed0c4",
+  "migration_target": "desktop",
+  "desktop_index_store": "agyhub_summaries_proto.pb",
+  "owner_sensitive_history_transfer_allowed": true,
+  "source_package": {
+    "path": "/media/ferb27/Store data/anti-conversation-migration/sandbox/dish_cleaner",
+    "partition_uuid": "3C8CC1178CC0CC98",
+    "source_os": "windows",
+    "source_project_guid": "088c8445-c125-444b-8721-6785bc361a2a",
+    "source_workspace_uri": "file:///e%3A/project/cleanAI"
+  },
+  "target_environment": {
+    "target_os": "debian",
+    "target_repo_path": "/home/ferb27/projects/cleanAI",
+    "target_workspace_uri": "file:///home/ferb27/projects/cleanAI",
+    "target_project_guid": null,
+    "target_guid_status": "UNRESOLVED",
+    "guid_resolution_procedure": "Open /home/ferb27/projects/cleanAI once in Antigravity Desktop to natively create ~/.gemini/config/projects/<guid>.json. Helper will automatically discover it without manual override."
+  },
+  "desktop_destinations": {
+    "conversations_dir": "/home/ferb27/.gemini/antigravity/conversations",
+    "brain_dir": "/home/ferb27/.gemini/antigravity/brain",
+    "index_proto_file": "/home/ferb27/.gemini/antigravity/agyhub_summaries_proto.pb"
+  },
+  "conversations": [
+    {
+      "conversation_id": "277112d0-1367-4f05-a019-e583625b6c1c",
+      "action": "IMPORT_TO_CLEANAI",
+      "preview": "Phân Tích RAM Chạy Ngầm",
+      "source_workspace_uris": ["file:///e%3A/project/cleanAI"],
+      "target_workspace_uri": "file:///home/ferb27/projects/cleanAI",
+      "db_file": "conversations/277112d0-1367-4f05-a019-e583625b6c1c.db",
+      "brain_dir": "brain/277112d0-1367-4f05-a019-e583625b6c1c",
+      "step_count": 49
+    },
+    {
+      "conversation_id": "556258fd-137a-4f35-8d11-1147f2c56420",
+      "action": "IMPORT_TO_CLEANAI",
+      "preview": "Phân Tích Kết Nối Mạng",
+      "source_workspace_uris": ["file:///e%3A/project/cleanAI"],
+      "target_workspace_uri": "file:///home/ferb27/projects/cleanAI",
+      "db_file": "conversations/556258fd-137a-4f35-8d11-1147f2c56420.db",
+      "brain_dir": "brain/556258fd-137a-4f35-8d11-1147f2c56420",
+      "step_count": 41
+    },
+    {
+      "conversation_id": "76262243-a240-4b7b-be18-630b499c1a57",
+      "action": "DEFER",
+      "preview": "AI Disk Cleaner Evaluation",
+      "source_workspace_uris": ["file:///c%3A/Users/phamt/Documents/antigravity/sharp-davinci"],
+      "target_workspace_uri": null,
+      "db_file": "conversations/76262243-a240-4b7b-be18-630b499c1a57.db",
+      "brain_dir": "brain/76262243-a240-4b7b-be18-630b499c1a57",
+      "step_count": 366,
+      "relationship_analysis": {
+        "status": "INCEPTION_SESSION",
+        "confidence": "HIGH",
+        "rationale": "Inception session started in sharp-davinci to plan cleanAI architecture. Deferred by default per 2+1 safe migration rule. Can be migrated separately after first 2 verify cleanly."
+      }
+    }
+  ],
+  "safety_gates": {
+    "require_process_stop": true,
+    "require_package_hash_pass": true,
+    "require_native_guid_resolved": true,
+    "require_backup_success": true,
+    "require_integrity_check": true,
+    "prohibit_live_run": true,
+    "prohibit_force_guid": true
+  }
+}
